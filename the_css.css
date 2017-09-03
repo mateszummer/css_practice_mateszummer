@@ -1,10 +1,15 @@
-h1 {color:brown; text-align: center; font-size: 49px}
-h2 {color: brown; font-family: Arial; font-size: 22px; text-align: center}
+h1 {color:brown; text-align: center; font-size: 49px; font-family: 'Syncopate', sans-serif;}
+h2 {color: brown; font-family: Arial; font-size: 22px; text-align: center; font-family: 'Syncopate', sans-serif;}
 h3 {background-color: gold; text-align: left; width: 250px;border-style: solid;color: brown; border-color: brown; border-radius: 5px}
 #css-zen-garden {margin: 100px}
-p {margin-left: 300px; text-align: justify; padding: 0 100px;}
-div.summary p {margin-left: 100px;}
-.summary p:nth-child(2) {margin-left: 0px;color:brown;text-align: center;}
+p {margin-left: 300px; text-align: justify; padding: 0 100px;font-size: 18px;font-family: 'Macondo', cursive;}
+div.summary p {margin-left: 100px; text-align: center}
+.summary p:nth-child(2) {margin-left: 0px;color:brown;text-align: center; border-style: none}
 div p:nth-child(2) {border-top: solid; border-top-left-radius: 40px; border-color: brown;}
 div.main-supporting h3 {position: relative; left:400px; top: 21px}
-body {background-image: url(http://www.stencilkingdom.com/images/designs/aztec02_large.gif); background-repeat:repeat-y;}
+body {background: url(/home/chiadx/Downloads/aztec_asd.png) top left no-repeat; position: relative; top:-70px}
+.preamble h3 {position: relative; left: 400px; top: 21px}
+.wrapper div{position: relative; left: 400px;}
+footer {position: relative; left: 800px}
+.main-supporting div p:nth-child(-n + 4):first-of-type, .intro div p:first-of-type{padding-top: 40px}
+.bird {position: relative; left: 1000px; top: 70px}
