@@ -20,6 +20,8 @@ h3 {
     border-color: #50C878;
     border-bottom-color: brown;
     border-radius: 5px;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 17px
 }
 #css-zen-garden {
     margin: 100px
