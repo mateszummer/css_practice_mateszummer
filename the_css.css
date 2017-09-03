@@ -17,8 +17,9 @@ h3 {
     width: 250px;
     border-style: solid;
     color: brown;
-    border-color: brown;
-    border-radius: 5px
+    border-color: #50C878;
+    border-bottom-color: brown;
+    border-radius: 5px;
 }
 #css-zen-garden {
     margin: 100px
@@ -35,7 +36,7 @@ div.summary p {
     text-align: center
 }
 .summary p:nth-child(2) {
-    margin-left: 0px;
+    margin-left: 100px;
     color:brown;
     text-align: center;
     border-style: none
@@ -50,18 +51,18 @@ div.main-supporting h3 {
     left:400px; top: 21px
 }
 body {
-    background: url(/home/chiadx/Downloads/aztec_asd.png) top left no-repeat;
+    background: url(/home/chiadx/Downloads/aztec.png) top left no-repeat;
     position: relative;
     top:-70px
 }
 .preamble h3 {
     position: relative;
     left: 400px;
-    top: 21px
+    top: 22px
 }
 .wrapper div{
     position: relative;
-    left: 400px;
+    left: 100px;
 }
 footer {
     position: relative;
@@ -74,4 +75,26 @@ footer {
     position: relative;
     left: 1000px;
     top: 70px
+}
+
+.design-selection, .design-archives, .zen-resources {
+    display: table-cell
+}
+.zen-resources {
+    padding-left: 44px
+}
+.left-face {
+    position: relative;
+    top: -2950px; left: -100px
+}
+.right-face {
+    position: relative;
+    top: -2950px; left: 660px
+}
+.intro, .summary {
+    padding-top: 30px
+}
+a {
+    color: #50C878;
+    font-family: 'Caesar Dressing', cursive;
 }
