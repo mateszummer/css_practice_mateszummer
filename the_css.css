@@ -4,6 +4,8 @@ h1 {
     font-size: 49px;
     font-family: 'Syncopate', sans-serif;
 }
+
+
 h2 {
     color: brown;
     font-family: Arial;
@@ -11,6 +13,8 @@ h2 {
     text-align: center;
     font-family: 'Syncopate', sans-serif;
 }
+
+
 h3 {
     background-color: gold;
     text-align: left;
@@ -23,9 +27,13 @@ h3 {
     font-family: 'Caesar Dressing', cursive;
     font-size: 17px
 }
+
+
 #css-zen-garden {
     margin: 100px
 }
+
+
 p {
     margin-left: 300px;
     text-align: justify;
@@ -33,69 +41,100 @@ p {
     font-size: 18px;
     font-family: 'Macondo', cursive;
 }
+
+
 div.summary p {
     margin-left: 100px;
     text-align: center
 }
+
+
 .summary p:nth-child(2) {
     margin-left: 100px;
     color:brown;
     text-align: center;
     border-style: none
 }
+
+
 div p:nth-child(2) {
     border-top: solid;
     border-top-left-radius: 40px;
     border-color: brown;
 }
+
+
 div.main-supporting h3 {
     position: relative;
     left:400px; top: 21px
 }
+
+
 body {
     background: url(/home/chiadx/Downloads/aztec.png) top left no-repeat;
     position: relative;
     top:-70px
 }
+
+
 .preamble h3 {
     position: relative;
     left: 400px;
     top: 22px
 }
+
+
 .wrapper div{
     position: relative;
     left: 100px;
 }
+
+
 footer {
     position: relative;
     left: 800px
 }
+
+
 .main-supporting div p:nth-child(-n + 4):first-of-type, .intro div p:first-of-type{
     padding-top: 40px
 }
+
+
 .bird {
     position: relative;
     left: 1000px;
     top: 70px
 }
 
+
 .design-selection, .design-archives, .zen-resources {
     display: table-cell
 }
+
+
 .zen-resources {
     padding-left: 44px
 }
+
+
 .left-face {
     position: relative;
     top: -2950px; left: -100px
 }
+
+
 .right-face {
     position: relative;
     top: -2950px; left: 660px
 }
+
+
 .intro, .summary {
     padding-top: 30px
 }
+
+
 a {
     color: #50C878;
     font-family: 'Caesar Dressing', cursive;
